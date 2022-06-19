@@ -1,0 +1,41 @@
+@media only screen and (min-width: 550px){
+
+body{
+    max-width: 2250px;
+}
+
+.logo1{
+    width:150px;
+    height: 60px;
+}
+.menu{
+    display: none;
+}
+header ul{
+    display:flex;
+    flex:wrap;
+    position: absolute;
+    right:50px;
+    top:15px;
+}
+header ul li{
+    border:none;
+    padding-right: 25px;
+    text-align: center;
+}
+
+#content img{
+    width:60%;
+    padding-left: 15px;
+}
+
+footer ul{
+    display: flex;
+    flex:wrap;
+}
+footer span{
+    position:absolute;
+    right:10px;
+}
+
+}

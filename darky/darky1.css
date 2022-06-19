@@ -1,0 +1,81 @@
+body{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    margin:0px;
+    max-width: 550px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo1{
+    width:110px;
+    height: 40px;
+    background: url("foXman-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.menu{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0;
+}
+#m1, #m2, #m3{
+    position:absolute;
+    width:40px;
+    height: 8px;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+#m2{
+    margin-top: 16px;
+}
+#m3{
+    bottom: 0;
+}
+header ul{
+    display: none;
+    
+}
+header li{
+    border-bottom: 3px double wheat;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#content p{
+    padding: 15px;
+}
+h1{
+    text-align: center;
+}
+#content img{
+    width:100%;
+}
+
+footer{
+    margin-top: 100px;
+}
+footer li{
+    padding: 8px;
+}
+footer span{
+    font-size: smaller;
+    color: lavender;
+}
